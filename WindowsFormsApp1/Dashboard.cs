@@ -26,8 +26,8 @@ namespace WindowsFormsApp1
         private void guna2Button3_Click(object sender, EventArgs e)
         {
             pnlMovingPannel.Left = btnCheckOut.Left + 18;
-            /*uc_CustomerCheckout1.Visible = true;
-            uc_CustomerCheckout1.BringToFront();*/
+            uc_CustomerCheckout1.Visible = true;
+            uc_CustomerCheckout1.BringToFront();
             
             
         }
@@ -35,8 +35,8 @@ namespace WindowsFormsApp1
         private void btnCustReg_Click(object sender, EventArgs e)
         {
             pnlMovingPannel.Left = btnCustReg.Left+18;
-            uc_cutomerRegistration.Visible = true;
-            uc_cutomerRegistration.BringToFront();
+            uc_cutomerRegistration1.Visible = true;
+            uc_cutomerRegistration1.BringToFront();
             
         }
 
@@ -51,6 +51,9 @@ namespace WindowsFormsApp1
         private void btnCustDetails_Click(object sender, EventArgs e)
         {
             pnlMovingPannel.Left = btnCustDetails.Left + 18;
+            uc_customerdetails1.Visible = true;
+            uc_customerdetails1.BringToFront();
+            
         }
 
         private void btnEmployee_Click(object sender, EventArgs e)
@@ -66,7 +69,7 @@ namespace WindowsFormsApp1
         private void Dashboard_Load(object sender, EventArgs e)
         {
             uc_AddRoom1.Visible = false;
-            uc_cutomerRegistration.Visible = false;
+            //uc_CutomerRegistration.Visible = false;
             btnAddRoom.PerformClick();
         }
 

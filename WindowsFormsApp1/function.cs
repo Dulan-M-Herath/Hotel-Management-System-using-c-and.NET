@@ -57,5 +57,9 @@ namespace WindowsFormsApp1
             return sdr;
         }
 
+        internal void setData(string query)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
