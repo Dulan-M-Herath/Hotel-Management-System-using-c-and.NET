@@ -44,6 +44,18 @@ namespace WindowsFormsApp1
             MessageBox.Show("'"+message+"'","Success",MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
+        public SqlDataReader getForCombo(String query)
+        {
+            SqlConnection con = getConnection();
+            SqlCommand cmd = new SqlCommand();
+
+            cmd.Connection = con;
+            con.Open();
+
+            cmd = new SqlCommand(query,con);
+            SqlDataReader sdr = cmd.ExecuteReader();
+            return sdr;
+        }
 
     }
 }

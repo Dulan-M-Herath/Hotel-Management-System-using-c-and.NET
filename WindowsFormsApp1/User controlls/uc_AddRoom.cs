@@ -47,7 +47,7 @@ namespace WindowsFormsApp1.User_controlls
         {
 
         }
-
+        int x = 6;
         private void btnAddRoomConfirmation_Click(object sender, EventArgs e)
         {
             if (txtRoomNo.Text != "" &&  txtPrice.Text != "")
@@ -56,7 +56,7 @@ namespace WindowsFormsApp1.User_controlls
                 String type = cmbRoomType.Text;
                 String bed = cmbBed.Text;
                 int price = int.Parse (txtPrice.Text);
-                int x=5;
+               
 
                 
 

@@ -81,6 +81,18 @@
     <Compile Include="User controlls\uc_AddRoom.Designer.cs">
       <DependentUpon>uc_AddRoom.cs</DependentUpon>
     </Compile>
+    <Compile Include="User controlls\uc_CustomerCheckout.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User controlls\uc_CustomerCheckout.Designer.cs">
+      <DependentUpon>uc_CustomerCheckout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User controlls\uc_cutomerRegistration.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User controlls\uc_cutomerRegistration.Designer.cs">
+      <DependentUpon>uc_cutomerRegistration.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
@@ -98,6 +110,12 @@
     </Compile>
     <EmbeddedResource Include="User controlls\uc_AddRoom.resx">
       <DependentUpon>uc_AddRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User controlls\uc_CustomerCheckout.resx">
+      <DependentUpon>uc_CustomerCheckout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User controlls\uc_cutomerRegistration.resx">
+      <DependentUpon>uc_cutomerRegistration.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Hotel_MgmtDataSet.xsc">
       <DependentUpon>Hotel_MgmtDataSet.xsd</DependentUpon>

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsApp1.User_controlls;
 
 namespace WindowsFormsApp1
 {
@@ -25,11 +26,18 @@ namespace WindowsFormsApp1
         private void guna2Button3_Click(object sender, EventArgs e)
         {
             pnlMovingPannel.Left = btnCheckOut.Left + 18;
+            /*uc_CustomerCheckout1.Visible = true;
+            uc_CustomerCheckout1.BringToFront();*/
+            
+            
         }
 
         private void btnCustReg_Click(object sender, EventArgs e)
         {
             pnlMovingPannel.Left = btnCustReg.Left+18;
+            uc_cutomerRegistration.Visible = true;
+            uc_cutomerRegistration.BringToFront();
+            
         }
 
         private void btnAddRoom_Click(object sender, EventArgs e)
@@ -58,10 +66,21 @@ namespace WindowsFormsApp1
         private void Dashboard_Load(object sender, EventArgs e)
         {
             uc_AddRoom1.Visible = false;
+            uc_cutomerRegistration.Visible = false;
             btnAddRoom.PerformClick();
         }
 
         private void uc_AddRoom1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void uc_customerReg1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void uc_cutomerRegistration_Load(object sender, EventArgs e)
         {
 
         }
