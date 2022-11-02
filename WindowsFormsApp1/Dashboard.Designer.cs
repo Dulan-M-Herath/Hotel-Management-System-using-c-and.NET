@@ -50,6 +50,8 @@ namespace WindowsFormsApp1
             this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse4 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.uc_cutomerRegistration1 = new WindowsFormsApp1.User_controlls.uc_cutomerRegistration();
+            this.guna2Elipse5 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.uc_employee1 = new WindowsFormsApp1.User_controlls.uc_employee();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -199,6 +201,7 @@ namespace WindowsFormsApp1
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.uc_employee1);
             this.panel2.Controls.Add(this.uc_cutomerRegistration1);
             this.panel2.Controls.Add(this.uc_customerdetails1);
             this.panel2.Controls.Add(this.uc_CustomerCheckout1);
@@ -298,13 +301,25 @@ namespace WindowsFormsApp1
             this.uc_cutomerRegistration1.Size = new System.Drawing.Size(1431, 771);
             this.uc_cutomerRegistration1.TabIndex = 4;
             // 
+            // guna2Elipse5
+            // 
+            this.guna2Elipse5.BorderRadius = 30;
+            this.guna2Elipse5.TargetControl = this;
+            // 
+            // uc_employee1
+            // 
+            this.uc_employee1.Location = new System.Drawing.Point(3, 6);
+            this.uc_employee1.Name = "uc_employee1";
+            this.uc_employee1.Size = new System.Drawing.Size(1431, 768);
+            this.uc_employee1.TabIndex = 5;
+            // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(1513, 1034);
+            this.ClientSize = new System.Drawing.Size(1511, 1044);
             this.Controls.Add(this.btnMinimize);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.panel2);
@@ -342,5 +357,7 @@ namespace WindowsFormsApp1
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse4;
         private uc_customerdetails uc_customerdetails1;
         private uc_cutomerRegistration uc_cutomerRegistration1;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse5;
+        private uc_employee uc_employee1;
     }
 }

@@ -99,6 +99,12 @@
     <Compile Include="User controlls\uc_cutomerRegistration.Designer.cs">
       <DependentUpon>uc_cutomerRegistration.cs</DependentUpon>
     </Compile>
+    <Compile Include="User controlls\uc_employee.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User controlls\uc_employee.Designer.cs">
+      <DependentUpon>uc_employee.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
@@ -125,6 +131,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="User controlls\uc_cutomerRegistration.resx">
       <DependentUpon>uc_cutomerRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User controlls\uc_employee.resx">
+      <DependentUpon>uc_employee.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Hotel_MgmtDataSet.xsc">
       <DependentUpon>Hotel_MgmtDataSet.xsd</DependentUpon>

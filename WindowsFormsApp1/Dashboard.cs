@@ -59,6 +59,8 @@ namespace WindowsFormsApp1
         private void btnEmployee_Click(object sender, EventArgs e)
         {
             pnlMovingPannel.Left =btnEmployee.Left + 18;
+            uc_employee1.Visible = true;
+            uc_employee1.BringToFront();
         }
 
         private void btnMinimize_Click(object sender, EventArgs e)
