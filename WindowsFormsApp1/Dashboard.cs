@@ -71,7 +71,8 @@ namespace WindowsFormsApp1
         private void Dashboard_Load(object sender, EventArgs e)
         {
             uc_AddRoom1.Visible = false;
-            //uc_CutomerRegistration.Visible = false;
+            uc_cutomerRegistration1.Visible = false;
+            uc_employee1.Visible=false;
             btnAddRoom.PerformClick();
         }
 

@@ -88,11 +88,11 @@
             // 
             this.guna2CirclePictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.guna2CirclePictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox2.Image")));
-            this.guna2CirclePictureBox2.Location = new System.Drawing.Point(73, 95);
+            this.guna2CirclePictureBox2.Location = new System.Drawing.Point(55, 74);
             this.guna2CirclePictureBox2.Name = "guna2CirclePictureBox2";
             this.guna2CirclePictureBox2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CirclePictureBox2.ShadowDecoration.Parent = this.guna2CirclePictureBox2;
-            this.guna2CirclePictureBox2.Size = new System.Drawing.Size(200, 200);
+            this.guna2CirclePictureBox2.Size = new System.Drawing.Size(241, 235);
             this.guna2CirclePictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2CirclePictureBox2.TabIndex = 12;
             this.guna2CirclePictureBox2.TabStop = false;
